@@ -1,0 +1,35 @@
+# Bytecode & cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Logs and runtime files
+*.log
+cron.log
+
+# SQLite DB
+*.db
+*.sqlite3
+
+# Reports and output files
+/reports/*
+!/reports/.gitkeep  # Keeps the folder structure in Git
+
+# OS metadata files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
+
+# Ignore all .xml files
+*.xml
+
+# JetBrains IDE settings
+*.iml
+.idea/
