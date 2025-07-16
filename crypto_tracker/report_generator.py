@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from datetime import datetime
 import os
-from config import OUTPUT_DIR, API_URL, PARAMS
+from crypto_tracker.config import OUTPUT_DIR, API_URL, PARAMS
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
