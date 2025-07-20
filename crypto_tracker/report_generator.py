@@ -55,6 +55,7 @@ class CryptoLoader:
 
 
 def run_etl():
+    print("🚀 ETL starting...")
     extractor = CryptoExtractor(API_URL, PARAMS)
     transformer = CryptoTransformer()
     loader = CryptoLoader(OUTPUT_DIR)
