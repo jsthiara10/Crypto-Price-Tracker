@@ -124,7 +124,7 @@ crontab -e
 **Add the cron job (example uses time of 7:30AM)**
 
 ```bash
-30 7 * * * /absolute/path/to/venv/bin/python /absolute/path/to/Crypto-Price-Tracker/crypto_tracker/main.py >> /absolute/path/to/Crypto-Price-Tracker/cron.log 2>&1
+30 07 * * * cd /absolute/path/to/Crypto-Price-Tracker && /absolute/path/to/venv/bin/python -m crypto_tracker.report_generator >> /absolute/path/to/Crypto-Price-Tracker/logs/cron.log 2>&1
 ```
 **Save and exit**
 ```
