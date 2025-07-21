@@ -74,6 +74,7 @@ Crypto-Price-Tracker/
 │ └── init.py
 ├── reports/ # Auto-generated CSV reports
 ├── tests/ # Unit tests
+|── logs/ # contains pipeline logs
 ├── .github/workflows/ # GitHub Actions CI config
 ├── venv/ # Python virtual environment
 └── requirements.txt
